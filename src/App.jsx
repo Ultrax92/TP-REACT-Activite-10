@@ -7,7 +7,6 @@ function App() {
     register,
     handleSubmit,
     reset,
-    watch,
     formState: { errors },
   } = useForm({
     mode: "onBlur", // validation à la sortie du champ
